@@ -211,8 +211,17 @@ body{
     border-radius: 10px;
 }
 
+.container0{
+    width: 100vw;
+    /* height: 100%;
+    /* display: flex; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .container1{
-    width: 53vw;
+    width: 55%;
     
     display: flex;
     align-items: center;
@@ -290,6 +299,19 @@ body{
     left:95%;
 }
 
+.container1 .sub .star1 button{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.container1 .sub .star1 button:active{
+    background-color: green;
+
+}
+
 .container1 .sub .tata span img{
     width: 40px;
     height: 40px;
@@ -358,6 +380,84 @@ body{
 
 .container1 .sub span.detail1 a{
     text-decoration: none;
+}
+
+.container2{
+    width: 40%;
+    background-color: #D1D5DE;
+    
+    border-radius: 8px;
+
+
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* flex-direction: column; */
+    /* position: relative; */
+}
+
+.container2 h3.header1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: #182F58;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #D1D5DE;
+    border-radius: 8px;
+    /* padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.984); */
+}
+
+.container2 h6.sub1{
+    margin: 10px;
+    /* padding-top: 5px; */
+    font-size: 16px;
+    color: #182F58;
+    /* background-color: #D1D5DE;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.984); */
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container2 .subcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #D1D5DE;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+    width: 100%;
+    justify-items: center;
+    
+    
+   
+    /* box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.984); */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.container2 .subcontainer .item{
+    background-color: #62728D;
+    margin: 10px;
+    
+    border-radius: 8px;
+    
+    /* box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.984); */
+    width: 15vw;
+    height: 15vw;
 }
 
 
